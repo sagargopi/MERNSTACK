@@ -1,1 +1,14 @@
-node_modules
+﻿# Dependencies
+node_modules/
+package-lock.json
+
+# Root package.json (if it only contains dev tools)
+package.json
+
+# Build output
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
